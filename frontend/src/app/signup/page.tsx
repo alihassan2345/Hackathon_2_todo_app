@@ -9,7 +9,7 @@ export default function SignUpPage() {
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-indigo-900/20 to-black flex flex-col justify-center items-center p-4">
       <div className="absolute top-4 left-4">
         <Link href="/">
-          <motion.button
+          <motion.button        
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="px-4 py-2 rounded-lg bg-gray-800/50 hover:bg-indigo-600/20 border border-gray-700 hover:border-indigo-500/50 transition-all duration-300 font-medium"
